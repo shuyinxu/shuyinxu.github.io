@@ -1,5 +1,5 @@
 body{
-  background:#E2E5EA;
+  background: #f1f2ed;
   position: fixed;
 }
 h1 {
@@ -23,12 +23,21 @@ h1 {
     height: 60px;
     text-align: center;
     display: block;
+  }
+#nav:hover
+{
+  -webkit-animation: spin .6s linear;
+}
+
+@-webkit-keyframes spin {
+    0%  {-webkit-transform: rotate(0deg);}
+    100% {-webkit-transform: rotate(360deg);}
 }
 #navbar{
   overflow-x: hidden;
   height: 100%;
-  background:  #B5C1CC;
-  background-color: #B5C1CC;
+  background: #b5969c;
+  background-color: #b5969c;
   position:fixed;
   top: 0;
   left: 0;
@@ -38,7 +47,6 @@ h1 {
   -moz-transition: width 0.8s;
   transition: width 0.8s;
   display: block;
-
 
 }
 
@@ -57,20 +65,20 @@ h1 {
     -webkit-transition: width .5s linear;
     -moz-transition: width .5s linear;
     transition: width .5s linear;
+    font-family: 'Noto Serif', serif;
 
 }
 
 #navbar2{
   width: 100%;
   height: 60px;
-  background: #FDFEF0;
-  background-color: #FDFEF0;
+  background: #e9e4e1;
+  background-color: #bdcebc;
   position:fixed;
   top: 0;
   left: 0;
   opacity: .8;
   z-index: 0;
-
 }
 .open-side{
   width: 200px;
@@ -178,32 +186,43 @@ a{
   display: block;
 }
 #about{
-  position: absolute;
+  position: fixed;
   top: -900;
-
-
+  background: #e9e4e0;
+  background-color: #f1f2ed;
+  width: 100%;
+  height: 90%;
+  margin-top: 60px;
 }
 #myself{
 
-  width: 250px;
-    top: 120px;
-    position: absolute;
-    left: 120px;
+width: 250px;
+
+top: 80px;
+
+position: absolute;
+
+left: 140px;
 }
 
 #personal{
   width: 400px;
   position: absolute;
-  top: 400;
-  left: 440;
-
+  top: 340px;
+  left: 480;
+  font-family: 'Noto Serif', serif;
+  color: #70665d;
 }
 .slide{
   -webkit-transition: top 1.3s;  /* Chrome 1-25, Safari 3.2+ */
     -moz-transition: top 1.3s ;  /* Firefox 4-15 */
-      -o-transition: top 1.3s ;  /* Opera 10.50–12.00 */
+      -o-transition: top 1.3s ;  /* Opera 10.50â€“12.00 */
          transition: top 1.3s ;
 }
 .open-top{
   top:0px !important;
+}
+.faint{
+  opacity: .5;
+  z-index: -10;
 }
