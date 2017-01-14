@@ -62,6 +62,14 @@ $(document).ready(function() {
     if ($("#about").hasClass( "open-top" )){
       $("#about").removeClass( "open-top" );
 }
+  $(".airplane").fadeOut();
+  TweenMax.to(".airplane", 4, {x: -700, y: 550, rotation: -30, scale: 1});
+
+      });
+
+    $( "#resume" ).click(function() {
+        $(".airplane").show(2);
+        TweenMax.to(".airplane", 4, {x: 700, y: -550, rotation: 30, scale: 2.2});
       });
 
 
