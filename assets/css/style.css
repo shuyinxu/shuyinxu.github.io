@@ -2,6 +2,9 @@ body{
   background: #f1f2ed;
   position: fixed;
   max-height: 800px;
+  text-align: center;
+  overflow-y: scroll;
+  max-width:
 }
 h1 {
   color: #716B6E;
@@ -10,6 +13,13 @@ h1 {
   padding: 10px;
   right: 10px;
   z-index: 200;
+}
+#welcome{
+  width: 50%;
+  position: fixed;
+  text-align: center;
+  left:20%;
+
 }
 #nav {
     color: #716B6E;
@@ -55,6 +65,7 @@ h1 {
   margin: 30px 30px 30px 30px;
   transition: 0.8s;
   text-align: center;
+  margin: 0 auto;
 
 }
 #holder {
@@ -217,7 +228,7 @@ left: 140px;
 .slide{
   -webkit-transition: top 1.3s;  /* Chrome 1-25, Safari 3.2+ */
     -moz-transition: top 1.3s ;  /* Firefox 4-15 */
-      -o-transition: top 1.3s ;  /* Opera 10.50â€“12.00 */
+      -o-transition: top 1.3s ;  /* Opera 10.50Ã¢â‚¬â€œ12.00 */
          transition: top 1.3s ;
 }
 .open-top{
@@ -233,7 +244,7 @@ left: 140px;
   display: inline-block;
   width: 100px;
   left: -200;
-  bottom: -900;
+  bottom: -800;
 
 
 
@@ -256,9 +267,9 @@ left: 140px;
 }
 
 
-.resume{
-  position: relative;
-  width: 100%;
+.resumepart{
+
+  text-align: center;
 
   /* -webkit-animation: xAxis 3.5s infinite ease-in;
  animation: xAxis 3.5s infinite ease-in; --> */
@@ -415,4 +426,119 @@ left: 140px;
     -webkit-transform: translateX(500px);
     transform: translateX(500px);
   }
+}
+
+.lightbox{
+  text-align: center;
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #f1f2ed;
+  opacity: .95;
+}
+
+.lightbox img{
+  max-width: 80%;
+
+  margin-top: 2%;
+  overflow-y: scroll;
+  opacity: 1;
+}
+.lightbox:target {
+	outline: none;
+	display: block;
+  overflow-y: scroll;
+}
+#opacity{
+  opacity: 1;
+}
+.buttons{
+  width: 100px;
+  height: 25px;
+  padding: 5px;
+  text-align: center;
+}
+
+svg {
+	width: 45%;
+	stroke-dasharray:1840;
+	stroke-dashoffset: 1840;
+	animation: 5s dash ease forwards;
+ 	text-align: center;
+	margin: 25% 10% 5% 20%;
+  stroke: #b5969c;
+}
+path.st0{
+	animation: 2s  color-change  ease 1;
+	fill: #b5969c;
+}
+path.st1{
+	animation: 2s .3s color-change ease 1;
+	fill: #b5969c;
+}
+path.st2 {
+	animation: 2s .6s color-change ease 1;
+	fill: #b5969c;
+}
+path.st3{
+	animation: 2s .6s color-change ease 1;
+	fill: #b5969c;
+}
+path.st4{
+	animation: 2s .3s color-change ease 1;
+	fill: #b5969c;
+}
+path.st5{
+	animation: 2s .3s color-change ease 1;
+	fill: #b5969c;
+}
+path.st6{
+	animation: 2s .3s color-change ease 1;
+	fill: #b5969c;
+}
+@keyframes dash{
+	from{
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(2);
+	}
+	to{
+		stroke-dashoffset: 0;
+		transform: scale(2);
+	}
+}
+
+
+@keyframes color-change{
+  0%{
+    fill: #f1f2ed;
+  }
+  20%{
+    fill: #f1f2ed;
+  }
+	90%{
+		fill:#70665d;
+	}
+  100%{
+    fill: #b5969c;
+  }
+}
+
+body {
+    animation: myfadeInAnimation 3s;
+    text-align: center;
+}
+
+@keyframe myfadeInAnimation {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+@-webkit-keyframes myfadeInAnimation {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }

@@ -61,16 +61,19 @@ $(document).ready(function() {
   $( "#nav" ).click(function() {
     if ($("#about").hasClass( "open-top" )){
       $("#about").removeClass( "open-top" );
+    $("#welcome").show();
 }
   $(".airplane").fadeOut();
-  TweenMax.to(".airplane", 4, {x: -700, y: 550, rotation: -30, scale: 1});
+  TweenMax.to(".airplane", 3, {x: -700, y: 550, rotation: -30, scale: 1, delay: 1});
 
       });
 
     $( "#resume" ).click(function() {
         $(".airplane").show(2);
-        TweenMax.to(".airplane", 4, {x: 700, y: -550, rotation: 30, scale: 2.2});
+        $("#welcome").fadeOut();
+        TweenMax.to(".airplane", 3, {x: 800, y: -510, rotation: 40, scale: 2.2});
       });
+
 
 
 });
