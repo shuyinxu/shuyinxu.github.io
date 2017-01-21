@@ -65,9 +65,8 @@ $(document).ready(function() {
       $("#about").removeClass( "open-top" );
       $("#resume").removeClass('selected');
       $("#aboutpage").removeClass('selected');
-
+    $("#welcome").show();
 }
-  $("#welcome").show();
   $(".airplane").fadeOut();
   TweenMax.to(".airplane", 3, {x: -700, y: 550, rotation: -30, scale: 1, delay: 1});
 
