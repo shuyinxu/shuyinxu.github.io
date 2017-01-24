@@ -450,13 +450,14 @@ left: 140px;
   overflow-y: scroll;
   opacity: 1;
 }
+
 .lightbox:target {
 	outline: none;
 	display: block;
   overflow-y: scroll;
 }
 #opacity{
-  opacity: 1;
+  opacity: 1;!
 }
 .icons{
 

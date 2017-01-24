@@ -69,7 +69,7 @@ $(document).ready(function() {
 }
   $("#welcome").fadeIn(2000);
   $(".airplane").fadeOut();
-  TweenMax.to(".airplane", 2.3, {x: -700, y: 550, rotation: -30, scale: 1, delay: 1});
+  TweenMax.to(".airplane", 2, {x: -700, y: 550, rotation: -30, scale: 1, delay: 1});
 
       });
 
@@ -77,7 +77,7 @@ $(document).ready(function() {
         $("#resume").addClass('selected');
         $(".airplane").show(2);
         $("#welcome").fadeOut();
-        TweenMax.to(".airplane", 2.3, {x: 800, y: -510, rotation: 35, scale: 2.2});
+        TweenMax.to(".airplane", 2, {x: 800, y: -510, rotation: 35, scale: 2.2});
       });
 
 
