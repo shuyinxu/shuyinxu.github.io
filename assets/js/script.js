@@ -67,7 +67,7 @@ $(document).ready(function() {
       $("#aboutpage").removeClass('selected');
 
 }
-  $("#welcome").fadeIn(2000);
+  $("#welcome").fadeIn(3000);
   $(".airplane").fadeOut();
   TweenMax.to(".airplane", 2, {x: -700, y: 550, rotation: -30, scale: 1, delay: 1});
 

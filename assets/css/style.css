@@ -1,5 +1,5 @@
 body{
-  background: #f1f2ed;
+  background: #fdfdfb;
   position: fixed;
   max-height: 800px;
   text-align: center;
@@ -203,7 +203,7 @@ a{
   position: fixed;
   top: -900;
   background: #e9e4e0;
-  background-color: #f1f2ed;
+  background-color: #fdfdfb;
   width: 100%;
   height: 90%;
   margin-top: 60px;
@@ -483,13 +483,14 @@ left: 140px;
 
 svg {
 	width: 45%;
-	stroke-dasharray:1840;
-	stroke-dashoffset: 1840;
-	animation: 4s dash ease forwards;
+	stroke-dasharray:2300;
+	stroke-dashoffset: 2300;
+	animation: 5s dash ease forwards;
  	text-align: center;
   stroke: #b5969c;
   fill: #b5969c;
   margin-top:10%;
+  margin-bottom: 20px;
 }
 path.st0{
 	animation: 2s  .3s color-change  ease forwards;
@@ -535,11 +536,20 @@ path.st6{
 
 @keyframes color-change{
   0%{
-    fill: #f1f2ed;;
+    fill: #f1f2ed;
+  }
+
+  20%{
+    fill: #f1f2ed;
+  }
+
+  70%{
+    fill: #d8bebd
   }
 
   100%{
     fill: #b5969c;
+    stroke: #b5969c;
   }
 }
 
