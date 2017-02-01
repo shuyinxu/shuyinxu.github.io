@@ -1,2 +1,2 @@
-# xushuyin.github.io
-personal website
+# Shuyin Xu
+personal website @ https://shuyinxu.github.io/
