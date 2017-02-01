@@ -470,28 +470,31 @@ left: 140px;
   text-align: center;
 }
 .buttons{
+	font-size:20px;
   font-weight: bold;
   width: 100px;
-  height: 25px;
+  height: 35px;
   padding: 5px;
   text-align: center;
   cursor: pointer;
   color: #565350;
   letter-spacing: 2;
   font-family: 'Noto Serif', serif;
+
 }
 
 svg {
 	width: 45%;
 	stroke-dasharray:2300;
 	stroke-dashoffset: 2300;
-	animation: 5s dash ease forwards;
+	animation: 3s dash ease forwards;
  	text-align: center;
   stroke: #b5969c;
   fill: #b5969c;
   margin-top:10%;
   margin-bottom: 20px;
 }
+
 path.st0{
 	animation: 2s  .3s color-change  ease forwards;
 
@@ -543,7 +546,7 @@ path.st6{
     fill: #f1f2ed;
   }
 
-  70%{
+  80%{
     fill: #d8bebd
   }
 
