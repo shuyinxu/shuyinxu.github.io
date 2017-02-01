@@ -72,7 +72,7 @@ h1 {
 }
 #holder {
     text-align: center;
-    top: 100px;
+    top: 120px;
     position: absolute;
     display: block;
     height: 300px;
@@ -230,7 +230,7 @@ left: 140px;
 .slide{
   -webkit-transition: top 1.3s;  /* Chrome 1-25, Safari 3.2+ */
     -moz-transition: top 1.3s ;  /* Firefox 4-15 */
-      -o-transition: top 1.3s ;  /* Opera 10.50ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“12.00 */
+      -o-transition: top 1.3s ;  /* Opera 10.50ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ12.00 */
          transition: top 1.3s ;
 }
 .open-top{
@@ -440,12 +440,11 @@ left: 140px;
   top: 0;
   left: 0;
   background: #f1f2ed;
-  opacity: .95;
+  opacity: .98;
 }
 
 .lightbox img{
-  max-width: 80%;
-
+  max-width: 65%;
   margin-top: 2%;
   overflow-y: scroll;
   opacity: 1;
@@ -470,31 +469,33 @@ left: 140px;
   text-align: center;
 }
 .buttons{
-	font-size:20px;
+  font-size: 20;
+
   font-weight: bold;
   width: 100px;
-  height: 35px;
+  height: 40px;
   padding: 5px;
   text-align: center;
   cursor: pointer;
   color: #565350;
   letter-spacing: 2;
   font-family: 'Noto Serif', serif;
-
+}
+.buttons:hover{
+  color: #d8bebd;
 }
 
 svg {
 	width: 45%;
 	stroke-dasharray:2300;
 	stroke-dashoffset: 2300;
-	animation: 3s dash ease forwards;
+	animation: 5s dash ease forwards;
  	text-align: center;
   stroke: #b5969c;
   fill: #b5969c;
   margin-top:10%;
   margin-bottom: 20px;
 }
-
 path.st0{
 	animation: 2s  .3s color-change  ease forwards;
 
@@ -546,7 +547,7 @@ path.st6{
     fill: #f1f2ed;
   }
 
-  80%{
+  70%{
     fill: #d8bebd
   }
 
