@@ -6,6 +6,7 @@ body{
   text-align: center;
   overflow-y: scroll;
   max-width:1500px;
+  min-width:1500px;
 
 
 }
@@ -243,7 +244,7 @@ left: 140px;
 .slide{
   -webkit-transition: top 1.3s;  /* Chrome 1-25, Safari 3.2+ */
     -moz-transition: top 1.3s ;  /* Firefox 4-15 */
-      -o-transition: top 1.3s ;  /* Opera 10.50ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ12.00 */
+      -o-transition: top 1.3s ;  /* Opera 10.50ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ12.00 */
          transition: top 1.3s ;
 }
 .open-top{
@@ -471,12 +472,7 @@ left: 140px;
 #opacity{
   opacity: 1;!
 }
-.icons{
-
-  width: 60px;
-  padding: 20px;
-  cursor: pointer;
-}
+.icons{width: 4%;padding: 2%;cursor: pointer;}
 #links{
 
   text-align: center;
@@ -504,10 +500,10 @@ svg {
 	stroke-dashoffset: 2300;
 	animation: 5s dash ease forwards;
  	text-align: center;
-  stroke: #b5969c;
-  fill: #b5969c;
-  margin-top:30%;
-  margin-bottom: 20px;
+  	stroke: #b5969c;
+  	fill: #b5969c;
+  	margin-top:25%;
+  	margin-bottom: 1%;
 }
 path.st0{
 	animation: 2s  .3s color-change  ease forwards;
