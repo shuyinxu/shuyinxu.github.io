@@ -500,10 +500,10 @@ svg {
 	stroke-dashoffset: 2300;
 	animation: 5s dash ease forwards;
  	text-align: center;
-  	stroke: #b5969c;
-  	fill: #b5969c;
-  	margin-top:25%;
-  	margin-bottom: 1%;
+  stroke: #b5969c;
+  fill: #b5969c;
+  margin-top:25%;
+  margin-bottom: 1%;
 }
 path.st0{
 	animation: 2s  .3s color-change  ease forwards;
