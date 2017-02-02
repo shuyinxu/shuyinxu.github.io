@@ -57,6 +57,7 @@ $(document).ready(function() {
   $('#aboutpage').on('click', function(){
       $("#about").addClass('open-top');
       $("#aboutpage").addClass('selected');
+      $("#welcome").fadeOut();
 
 
   })
